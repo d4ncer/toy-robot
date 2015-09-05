@@ -8,7 +8,7 @@ The simulator can be installed globally or locally.
 
 **Global**
 
-This will add ```robot``` to your path, allowing you to use it wherever you'd like.
+This will add ```robot``` to your path. Use it wherever you'd like.FiFix Fi
 ```sh
 $ npm install -g
 $ robot instructions.txt
@@ -27,7 +27,7 @@ $ node ./bin/robot.js instructions.txt
 
 The simulator accepts only .txt files, with one command per line. The commands available are
 
-- **PLACE <X, Y, DIRECTION> (PLACE 0,1,NORTH):** Place the robot on the table.
+- **PLACE X, Y, DIRECTION (PLACE 0,1,NORTH):** Place the robot on the table.
 - **MOVE:** Move the robot one unit in the direction it is facing
 - **LEFT:** Turn the robot left
 - **RIGHT:** Turn the robot right
